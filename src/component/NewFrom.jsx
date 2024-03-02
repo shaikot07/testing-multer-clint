@@ -29,7 +29,7 @@ const NewFrom = () => {
 
     };
     return (
-        <div className="mx-w-[800] mx-auto">
+        <div className="border border-red-700">
             <div className="max-w-[600px] border border-black">
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="nameInput" className="label">Name</label>
@@ -55,7 +55,15 @@ const NewFrom = () => {
                         id="fileInput"
                         className="file-input w-full max-w-xs"
                     />
-                    <button type="submit">Submit</button>
+                    <label htmlFor="titleInput" className="label">Course </label>
+                    <input
+                        type="text"
+                        id="titleInput"
+                        name="course"
+                        placeholder="Inter Your Title"
+                        className="input input-bordered input-primary w-full max-w-xs"
+                    />
+                    <button type="submit bg-red-500">Submit</button>
                 </form>
             </div>
         </div>
