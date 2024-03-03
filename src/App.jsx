@@ -13,6 +13,7 @@ function App() {
     <>
       <div className='w-[700px] mx-auto'>
         <h2 className='text-3xl text-center'>Testing and intregation multer</h2>
+        
         <div>
        {/* <HomeData></HomeData> */}
        <div className='mt-10'>
@@ -24,7 +25,7 @@ function App() {
             <OfferSetup></OfferSetup>
           </div>
           <div  className='mt-10 mb-10'>
-            
+          <h2 className='text-3xl text-center'>Testing countdown and set offer data</h2>
             {/* <ShowCountdown></ShowCountdown> */}
             <GetOfferData></GetOfferData>
             
